@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Ung dung Contactbook - BE",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "script": {
+    "start": "nodemon server.js"
   },
   "author": "Nghia Nguyen (DI22V7X033)",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
+    "nodemon": "^3.0.2",
     "prettier": "^3.1.1"
   }
 }
