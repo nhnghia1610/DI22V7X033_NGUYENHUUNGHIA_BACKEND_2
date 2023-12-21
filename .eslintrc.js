@@ -5,4 +5,5 @@ module.exports = {
     es2021: true,
     },
     extends: ['eslint:recommended', 'prettier'],
+    "parser": "@babel/eslint-parser"
 };
